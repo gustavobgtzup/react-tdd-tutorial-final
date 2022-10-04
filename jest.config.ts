@@ -1,4 +1,6 @@
-export default {
+import type { Config } from 'jest';
+
+const config: Config = {
 	clearMocks: true,
 	collectCoverage: true,
 	coverageDirectory: 'coverage',
@@ -36,3 +38,5 @@ export default {
 			'<rootDir>/__mocks__/fileMock.js',
 	},
 };
+
+export default config;
