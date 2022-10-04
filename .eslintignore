@@ -1,2 +1,3 @@
 jest.config.unit.ts
 jest.config.int.ts
+commitlint.config.js
