@@ -1,4 +1,8 @@
 const pallete = {
+	common: {
+		white: '#FFFFFF',
+		black: '#000000',
+	},
 	primary: {
 		light: '#e3f2fd',
 		main: '#90caf9',

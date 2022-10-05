@@ -1,7 +1,6 @@
+import GlobalStyle, { theme } from '@/infrastructure/theme';
+import { Home } from '@/modules/main/screens/home';
 import { ThemeProvider } from 'styled-components';
-
-import GlobalStyle, { theme } from './infrastructure/theme';
-import { Home } from './modules/main/screens/home';
 
 const App = () => {
 	return (

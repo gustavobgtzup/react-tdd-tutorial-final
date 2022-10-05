@@ -18,7 +18,7 @@ export default createGlobalStyle`
 
   body {
     font-size: ${({ theme }) => theme.fontSizes.body1.desktop};
-    color: ${({ theme }) => theme.pallete.text.primary};
+    color: ${({ theme }) => theme.pallete.common.black};
   }
 
   button {
