@@ -7,7 +7,7 @@ export const HeaderComponent = () => {
 		<AppBar>
 			<Header.Toolbar>
 				<Header.Logo>
-					<a href="/">React + Vite</a>
+					<a href="/">React TDD Tutorial</a>
 				</Header.Logo>
 			</Header.Toolbar>
 		</AppBar>

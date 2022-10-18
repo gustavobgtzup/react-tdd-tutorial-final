@@ -1,11 +1,9 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 const Toolbar = styled.div`
-	${({ theme }) => css`
-		display: flex;
-		align-items: center;
-		font-family: ${theme.fonts.body2};
-	`}
+	display: flex;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
 `;
 
 const Logo = styled.div`
